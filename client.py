@@ -15,6 +15,9 @@ import pandas as pd
 # Convertir el texto a voz
 import pyttsx3
 
+#libreria interfaz grafica
+import tkinter as tk
+
 # Cargamos el archivo csv (separado por comas) y lo que hacemos es
 # convertirlo a un Data Frame ahora no solo serán datos separados
 # convirtiendo cada columna en una serie con mayor relación, para 
@@ -69,7 +72,30 @@ def buscar_apellido_materno(nombre):
         # # retornamos un mensaje de aviso
         return "No se encontró el apellido materno para esa persona."
 
+def buscar_edad(nombre):
+    
+    resultado = df[df['nombre'] == nombre]['edad'].values
 
+    if len(resultado) > 0:
+        return resultado[0] 
+    else:
+        return "No se encontró la edad para esa persona."
+    
+def buscar_genero(nombre):
+    
+    resultado = df[df['nombre'] == nombre]['genero'].values
+
+    if len(resultado) > 0:
+        return resultado[0] 
+    else:
+        return "No se encontró el genero de esta persona."
+    
+def buscar_nua(nombre):
+    resultado = df[df['nombre'] == nombre]['nua'].values
+    if len(resultado) > 0:
+        return resultado[0] 
+    else:
+        return "No se encontró el nua de esta persona."
 
 
 #--------------------------------------------------------------------------------------
@@ -112,8 +138,8 @@ def escuchar():
         texto = r.recognize_google(audio, language="es-ES")
         # CHECAR
         # Devuelve el texto transcribio convertido a minúsculas. 
-        
-        
+
+
         #return texto.lower()
         texto = texto.lower()
         # Verificamos si la instrucción contiene la frase específica para obtener la fecha de nacimiento
@@ -123,6 +149,16 @@ def escuchar():
         elif "dime el apellido materno de" in texto:  # Verifica si la instrucción contiene la frase para obtener el apellido materno
             hablar("Has dicho: " + texto)  # Lee con voz lo que se ha dichoenvia como argumento el texto
             return texto
+        elif "dime la edad de" in texto:  # Verifica si la instrucción contiene la frase para obtener el apellido materno
+            hablar("Has dicho: " + texto)  # Lee con voz lo que se ha dichoenvia como argumento el texto
+            return texto
+        elif "dime el género de" in texto:  # Verifica si la instrucción contiene la frase para obtener el apellido materno
+            hablar("Has dicho: " + texto)  # Lee con voz lo que se ha dichoenvia como argumento el texto
+            return texto
+        elif "dime el número único de" in texto:  # Verifica si la instrucción contiene la frase para obtener el apellido materno
+            hablar("Has dicho: " + texto)  # Lee con voz lo que se ha dichoenvia como argumento el texto
+            return texto
+       
         else:
             return None # Devolvemos None si la instrucción no coincide
     
@@ -130,6 +166,7 @@ def escuchar():
     # de voz no puede entender lo que se dijo.
     except sr.UnknownValueError:
         hablar("No se pudo entender lo que dijiste")  # Lee con voz el mensaje de error
+        print("No se pudo entender lo que dijiste")
         return "No se pudo entender lo que dijiste" # MENSAJE DE ALRTA
 
     # TENEMOS QUE TENER UNA CONEXION A INTERNET POR SER API
@@ -140,7 +177,7 @@ def escuchar():
         return "Error al recuperar resultados del servicio de reconocimiento de voz; {0}".format(e)
 
 # Función principal de nuestro programa
-def main():
+def buscar():
     activado = True
     while True:
         if activado:
@@ -152,10 +189,22 @@ def main():
                         apellido_materno = buscar_apellido_materno(nombre)
                         hablar(f"El apellido materno de {nombre} es: {apellido_materno}")  # Lee con voz el resultado
                         print(f"El apellido materno de {nombre} es: {apellido_materno}")
-                    else:
+                    elif "fecha de nacimiento" in comando:
                         fecha_nacimiento = buscar_fecha_nacimiento(nombre)
                         hablar(f"La fecha de nacimiento de {nombre} es: {fecha_nacimiento}")  # Lee con voz el resultado
                         print(f"La fecha de nacimiento de {nombre} es: {fecha_nacimiento}")
+                    elif "edad" in comando:
+                        edad = buscar_edad(nombre)
+                        hablar(f"La edad de {nombre} es: {edad}")  # Lee con voz el resultado
+                        print(f"La edad de {nombre} es: {edad}")
+                    elif "género" in comando: 
+                        género = buscar_genero(nombre)
+                        hablar(f"El genero de {nombre} es: {género}")
+                        print(f"El género de {nombre} es: {género}")
+                    elif "número único" in comando: 
+                        nua = buscar_nua(nombre)
+                        hablar(f"El nua de {nombre} es: {nua}")
+                        print(f"El nua de {nombre} es: {nua}")
                 elif "desactivar" in comando:
                     activado = False
                     hablar("Agente desactivado.")  # Lee con voz el mensaje de desactivación
@@ -182,7 +231,20 @@ def obtener_nombre(comando):
     # El nombre se encuentra después de la palabra "de"
     nombre = " ".join(palabras[indice_de + 1:])
     return nombre.strip()  # Devolvemos el nombre extraído, eliminando cualquier espacio en blanco adicional
+ 
+# define la funcion del boton y la accion de responder por voz la frase agente activado
+def activar_agente():
+    hablar("Agente activado. Esperando instrucciones...")
+    print("Agente activado. Esperando instrucciones...")
+    buscar()
 
+# Interfaz gráfica
+root = tk.Tk()  # ventana
+root.title("Agente de voz") # nombre de la ventana
+root.geometry("400x400") # dimensiones
 
-if __name__ == "__main__":
-    main()
+# define el boton en la ventana y el comando que ejecutara
+btn_activar = tk.Button(root, text="Activar agente", command=activar_agente)
+btn_activar.pack(pady=20) # define las dimensiones del boton
+
+root.mainloop() # hace un ciclo infinito para que la ventana no cierre a menos que se presione el boton "x"

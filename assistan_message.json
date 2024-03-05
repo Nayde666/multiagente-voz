@@ -1,0 +1,14 @@
+[
+    {
+        "instruccion": "saludo",
+        "mensaje": "Bienvenido. En que puedo ayudarte hoy?"
+    },
+    {
+        "instruccion": "despedida",
+        "mensaje": "Hasta luego. Si necesitas mas ayuda, aqui estare."
+    },
+    {
+        "instruccion": "error",
+        "mensaje": "Lo siento no te entendí debido a este error"
+    }
+]

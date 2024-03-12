@@ -8,7 +8,6 @@ class WindowsTalker:
         self.voices = self.engine.getProperty('voices') # para cambiar la voz del programa
         self.engine.setProperty('voice', self.voices[3].id) # modificacion del tipo de voz
         
-
     def talk(self, text):
         self.engine.say(text)
         self.engine.runAndWait() 

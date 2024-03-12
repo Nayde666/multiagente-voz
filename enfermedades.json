@@ -1,0 +1,51 @@
+[
+    {
+        "enfermedad": "resfriado común",
+        "soluciones": "Descansar adecuadamente."
+    },
+    {
+        "enfermedad": "gripe",
+        "soluciones": "Gárgaras con agua tibia y sal."
+    },
+    {
+        "enfermedad": "infeccion de garganta",
+        "otros nombres": [
+            "faringitis" , "amigdalitis"
+        ], 
+        "soluciones": "gárgaras con agua tibia y sal."
+    }, 
+    {
+        "enfermedad": "infecciones de oído",
+        "soluciones": "Consultar a un médico para recibir tratamiento adecuado, que puede incluir antibióticos o analgésicos."
+    },
+    {
+        "enfermedad": "conjuntivitis",
+        "soluciones": "Evitar frotarse los ojos."
+    },
+    {
+        "enfermedad": "gastroenteritis",
+        "otros nombres": [
+            "intoxicación", "alimentaria"
+        ],
+        "soluciones": "Descansar y mantenerse hidratado con pequeños sorbos de agua o soluciones de rehidratación oral."
+    },
+    {
+        "enfermedad": "dermatitis",
+        "otros nombres": [
+            "eccema"
+        ],
+        "soluciones": "Mantener la piel limpia y usar productos suaves y no irritantes."
+    }, 
+    {
+        "enfermedad": "acne",
+        "soluciones": "Evitar rascar o frotar las áreas afectadas."
+    },
+    {
+        "enfermedad": "hipertensión arterial",
+        "soluciones": "Seguir una dieta baja en sodio y rica en frutas, verduras y alimentos integrales."
+    },
+    {
+        "enfermedad": "diabetes mellitus",
+        "soluciones": "Seguir un plan de alimentación saludable y equilibrado."
+    }
+]

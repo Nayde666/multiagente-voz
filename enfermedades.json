@@ -1,51 +1,107 @@
 [
     {
-        "enfermedad": "resfriado común",
-        "soluciones": "Descansar adecuadamente."
-    },
-    {
-        "enfermedad": "gripe",
-        "soluciones": "Gárgaras con agua tibia y sal."
-    },
-    {
-        "enfermedad": "infeccion de garganta",
-        "otros nombres": [
-            "faringitis" , "amigdalitis"
-        ], 
-        "soluciones": "gárgaras con agua tibia y sal."
-    }, 
-    {
-        "enfermedad": "infecciones de oído",
-        "soluciones": "Consultar a un médico para recibir tratamiento adecuado, que puede incluir antibióticos o analgésicos."
-    },
-    {
-        "enfermedad": "conjuntivitis",
-        "soluciones": "Evitar frotarse los ojos."
-    },
-    {
-        "enfermedad": "gastroenteritis",
-        "otros nombres": [
-            "intoxicación", "alimentaria"
+        "enfermedad" : "resfriado común",
+        "sintomas" : [
+            "estornudos","congestión nasal","moqueo","dolor de garganta","tos","lagrimeo","fiebre"
         ],
-        "soluciones": "Descansar y mantenerse hidratado con pequeños sorbos de agua o soluciones de rehidratación oral."
+        "soluciones" : "Te recomendamos descansar, hidratarte y tomar cloperastina en conjunto con paracetamol e ibuprofeno"
     },
     {
-        "enfermedad": "dermatitis",
-        "otros nombres": [
-            "eccema"
+        "enfermedad" : "cefaleas o dolor de cabeza",
+        "sintomas" : [
+            "dolor leve o moderado de la cabeza","intolerancia a la luz","intolerancia al ruido"
         ],
-        "soluciones": "Mantener la piel limpia y usar productos suaves y no irritantes."
-    }, 
-    {
-        "enfermedad": "acne",
-        "soluciones": "Evitar rascar o frotar las áreas afectadas."
+        "soluciones" : "Te recomendamos tomar aspirina"
     },
     {
-        "enfermedad": "hipertensión arterial",
-        "soluciones": "Seguir una dieta baja en sodio y rica en frutas, verduras y alimentos integrales."
+        "enfermedad" : "migraña",
+        "sintomas" : [
+            "cafalea de gran intensidad","latido en la mitad de la cabeza", "intolerancia a la luz","intolerancia al ruido"
+        ],
+        "soluciones" : "Te recomendamos tomar sumatriptán"
     },
     {
-        "enfermedad": "diabetes mellitus",
-        "soluciones": "Seguir un plan de alimentación saludable y equilibrado."
+        "enfermedad" : "gripe",
+        "sintomas" : [
+            "fiebre","dolor corporal","congestion nasal", "dolor de cabeza", "escalofríos", "fatiga"
+        ],
+        "soluciones" : "Te recomendamos descansar, hidratarte y tomar peramivir"
+    },
+    {
+        "enfermedad" : "conjuntivitis",
+        "sintomas" : [
+            "picazón","secreción","lagrimeo","sensibilidad a la luz"
+        ],
+        "soluciones" : "Te recomendamos ciprofloxacina oftálmica"
+    },
+    {
+        "enfermedad" : "gastroenteritis",
+        "sintomas" : [
+            "diarrea","calambres en el abdomen","náuseas","vómito"
+        ],
+        "soluciones" : "Te recomendamos neomicina, caolin y pectina"
+    },
+    {
+        "enfermedad" : "dermatitis",
+        "sintomas" : [
+            "enrojecimiento en la piel","dolor e inflamación en la piel"
+        ],
+        "soluciones" : "Te recomendamos dernutran que contiene hidrocortisona"
+    },
+    {
+        "enfermedad" : "infección urinaria",
+        "sintomas" : [
+            "dolor al orinar","sangrado","retorcijones en el abdomen"
+        ],
+        "soluciones" : "Te recomendamos trimetoprima y sulfametoxazol"
+    },
+    {
+        "enfermedad" : "alergia",
+        "sintomas" : [
+            "congestión nasal","rinorrea","enrojecimiento de los ojos", "dificultad respiratoria", "sarpullido"
+        ],
+        "soluciones" : "Te recomendamos cetirizina"
+    },
+    {
+        "enfermedad" : "ansiedad",
+        "sintomas" : [
+            "palpitaciones","sensación de ahogo", "estrés excesivo", "angustia excesiva"
+        ],
+        "soluciones" : "Te recomendamos duloxetina"
+    },
+    {
+        "enfermedad" : "neumonia",
+        "sintomas" : [
+            "tos con expectoración purulenta","dolo torácico","fiebre con escalofríos"
+        ],
+        "soluciones" : "Te recomendamos moxifloxacino"
+    },
+    {
+        "enfermedad" : "sequedad ocular",
+        "sintomas" : [
+            "lagrimero","visión borrosa fluctuante","pesadez en los párpados", "ardor"
+        ],
+        "soluciones" : "Te recomendamos gotas hidratantes como lacrifresh"
+    },
+    {
+        "enfermedad" : "transtorno del sueño",
+        "sintomas" : [
+            "dificultad para consiliar el sueño","agotamiento físico","bajo rendimiento", "sueño diurno"
+        ],
+        "soluciones" : "Te recomendamos gotas hidratantes como temazepam"
+    },
+    {
+        "enfermedad" : "varicela",
+        "sintomas" : [
+            "exantemas","vesículas claras con una base rojiza", "costras", "fiebre", "picor intenso"
+        ],
+        "soluciones" : "Te recomendamos tomar aciclovir"
+    },
+    {
+        "enfermedad" : "candidiacis",
+        "sintomas" : [
+            "placas blanquecinas","picor", "sensación de quemazón", "fiebre"
+        ],
+        "soluciones" : "Te recomendamos usar miconazol y terconazol"
     }
 ]

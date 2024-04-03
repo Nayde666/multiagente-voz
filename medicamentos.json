@@ -1,0 +1,86 @@
+[   {
+        "enfermedad" : "prueba",
+        "medicamento" : "nada, solo ess una prueba",
+        "descripcion" : "funcionó con 3 sintomas"
+    },
+    {
+        "enfermedad" : "resfriado común",
+        "medicamento" : "cloperastina",
+        "descripcion" : "Cloperastina se utiliza como tratamiento de las formas improductivas de tos, como tos irritativa o tos nerviosa, ayudando a que estas cesen. Esto es gracias a su doble mecanismo de acción central y periférico, desarrollando su acción selectivamente sobre el centro regulador de la tos sin causar depresión del Sistema Nervioso Central (SNC). Además, cloperastina posee un efecto espasmolítico que relaja la musculatura de los bronquios, y una leve acción antihistamínica. Esto nos ayudará cuando los golpes de tos fuercen la función de nuestros bronquios."
+    },
+    {
+        "enfermedad" : "dolor de cabeza",
+        "medicamento" : "aspirina",
+        "descripcion" : "el ácido acetilsalicílico o AAS, conocido popularmente como aspirina. La aspirina sin prescripción se usa para bajar la fiebre y aliviar el dolor leve a moderado causado por dolor de cabeza, períodos menstruales, artritis, dolor en los dientes y dolores musculares. "
+    },
+    {
+        "enfermedad" : "migraña",
+        "medicamento" : "sumatriptán",
+        "descripcion" : "Sumatriptán se utiliza para tratar los síntomas de los dolores de cabeza por migraña (dolores de cabeza intensos y punzantes que algunas veces vienen acompañados de náusea y sensibilidad al sonido y la luz). El sumatriptán pertenece a una clase de medicamentos llamados antagonistas selectivos del receptor de serotonina. Este funciona reduciendo los vasos sanguíneos en la cabeza, evitando que se envíen señales de dolor al cerebro y bloqueando la liberación de ciertas sustancias naturales que ocasionan dolor, náusea y otros síntomas de la migraña. "
+    },
+    {
+        "enfermedad" : "gripe",
+        "medicamento" : "peramivir",
+        "descripcion" : "La inyección de peramivir se usa para tratar ciertos tipos de infección por influenza ('gripe') en adultos y niños de 6 meses de edad y mayores que han tenido síntomas de influenza por no más de dos días. Su acción consiste en detener la propagación del virus de la influenza en el cuerpo. La inyección de peramivir ayuda a reducir el tiempo que duran los síntomas de gripe como nariz congestionada o secreción nasal, dolor de garganta, tos, dolor de músculos o articulaciones, cansancio, dolor de cabeza, fiebre y escalofríos."
+    },
+    {
+        "enfermedad" : "conjuntivitis",
+        "medicamento" : "ciprofloxacina oftálmica",
+        "descripcion" : "La solución de ciprofloxacina oftálmica se usa para tratar infecciones bacterianas del ojo, que incluyen conjuntivitis (infección de la membrana que cubre el exterior del globo ocular y el interior del párpado) y úlceras en la córnea (infección y pérdida de tejido en la parte delantera transparente del ojo)."
+    },
+    {
+        "enfermedad" : "gastroenteritis",
+        "medicamento" : "neomicina, caolin y pectina",
+        "descripcion" : "Caolín y pectina, son polvos finos protectores inertes que tienen gran poder de adhesión y de revestimiento sobre la piel y las mucosas, y por lo cual actúan mecánicamente sin interferir con ningún proceso digestivo o metabólico; son capaces de remover las bacterias y elementos irritantes que son causa común de diarrea; protegen la mucosa gastrointestinal contra ciertas sustancias irritantes."
+    },
+    {
+        "enfermedad" : "dermatitis",
+        "medicamento" : "dernutran",
+        "descripcion" : "Contiene hidrocortisona propionato butirato y excipientes. Eccema agudo exógeno de leve a moderado (dermatitis de contacto alérgica, dermatitis de contacto irritativa, eccema dishidrótico, eccema vulgar) y eccema endógeno (dermatitis atópica, neurodermatitis), eccema seborreico. Coadyuvante en el tratamiento de la psoriasis."
+    },
+    {
+        "enfermedad" : "infección urinaria",
+        "medicamento" : "trimetoprima y sulfametoxazol",
+        "descripcion" : "Elimina las bacterias que provocan infecciones en las vías urinarias."
+    },
+    {
+        "enfermedad" : "alergia",
+        "medicamento" : "cetirizina",
+        "descripcion" : "La cetirizina se usa para aliviar temporalmente los síntomas de la fiebre del heno (alergia al polen, polvo u otras sustancias presentes en el aire) y la alergia a otras sustancias (como ácaros del polvo, caspa de animales, cucarachas y moho). Estos síntomas incluyen estornudos; secreción nasal; picazón, enrojecimiento y lagrimeo en los ojos; y picazón de nariz o garganta. La cetirizina también se usa para tratar la picazón y el enrojecimiento causados por la urticaria."
+    },
+    {
+        "enfermedad" : "ansiedad",
+        "medicamento" : "duloxetina",
+        "descripcion" : "La duloxetina se utiliza para tratar la depresión en adultos y el trastorno de ansiedad generalizada, preocupación y tensión excesivas que perturban la vida diaria y duran 6 meses o mas, en adultos y niños de 7 años o mas."
+    },
+    {
+        "enfermedad" : "neumonia",
+        "medicamento" : "moxifloxacino",
+        "descripcion" : "El moxifloxacino se usa para tratar ciertas infecciones causadas por bacterias, como la neumonía y las infecciones cutáneas y abdominales (zona del estómago)."
+    },
+    {
+        "enfermedad" : "sequedad ocular",
+        "medicamento" : "lacrifresh",
+        "descripcion" : "Gotas lubricantes y humectantes que alivian los síntomas de irritación, sequedad y cansancio ocular. Ofrecen una excelente humectación y lubricación. Están fabricadas con un componente activo presente en el ojo de forma natural: ácido hialurónico, que aporta un confort adicional y más duradero en el tiempo."
+    },
+    {
+        "enfermedad" : "transtorno del sueño",
+        "medicamento" : "lacrifresh",
+        "descripcion" : "Gotas lubricantes y humectantes que alivian los síntomas de irritación, sequedad y cansancio ocular. Ofrecen una excelente humectación y lubricación. Están fabricadas con un componente activo presente en el ojo de forma natural: ácido hialurónico, que aporta un confort adicional y más duradero en el tiempo."
+    },
+    {
+        "enfermedad" : "varicela",
+        "medicamento" : "aciclovir",
+        "descripcion" : "Aciclovir se usa para reducir el dolor y acelerar la curación de las heridas o ampollas en las personas que tienen varicela, herpes zóster (culebrilla; una erupción cutánea que puede producirse en las personas que han tenido varicela"
+    },
+    {
+        "enfermedad" : "candidiacis",
+        "medicamento" : "miconazol y terconazol",
+        "descripcion" : "Aciclovir se usa para reducir el dolor y acelerar la curación de las heridas o ampollas en las personas que tienen varicela, herpes zóster (culebrilla; una erupción cutánea que puede producirse en las personas que han tenido varicela"
+    },
+    {
+        "enfermedad" : "dolor y fiebre",
+        "medicamento" : "paracetamol",
+        "descripcion" : "Aciclovir se usa para reducir el dolor y acelerar la curación de las heridas o ampollas en las personas que tienen varicela, herpes zóster (culebrilla; una erupción cutánea que puede producirse en las personas que han tenido varicela"
+    }
+]

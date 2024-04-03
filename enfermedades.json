@@ -1,0 +1,119 @@
+[   
+    {
+        "enfermedad" : "prueba",
+        "sintomas" : [
+            "celular","libreta","pantalla"
+        ],
+        "soluciones" : "La prueba ha funcionado"
+    },
+    {
+        "enfermedad" : "resfriado común",
+        "sintomas" : [
+            "estornudos","congestión nasal","moqueo","dolor de garganta","tos","lagrimeo","fiebre"
+        ],
+        "soluciones" : "Te recomendamos descansar, hidratarte y tomar cloperastina en conjunto con paracetamol e ibuprofeno"
+    },
+    {
+        "enfermedad" : "dolor de cabeza",
+        "sintomas" : [
+            "dolor moderado de la cabeza","intolerancia a la luz","intolerancia al ruido"
+        ],
+        "soluciones" : "Te recomendamos tomar aspirina"
+    },
+    {
+        "enfermedad" : "migraña",
+        "sintomas" : [
+            "cafalea de gran intensidad","latido en la mitad de la cabeza", "intolerancia a la luz","intolerancia al ruido"
+        ],
+        "soluciones" : "Te recomendamos tomar sumatriptán"
+    },
+    {
+        "enfermedad" : "gripe",
+        "sintomas" : [
+            "fiebre","dolor corporal","congestion nasal", "dolor de cabeza", "escalofríos"
+        ],
+        "soluciones" : "Te recomendamos descansar, hidratarte y tomar peramivir"
+    },
+    {
+        "enfermedad" : "conjuntivitis",
+        "sintomas" : [
+            "picazón","secreción","lagrimeo","sensibilidad a la luz"
+        ],
+        "soluciones" : "Te recomendamos ciprofloxacina oftálmica"
+    },
+    {
+        "enfermedad" : "gastroenteritis",
+        "sintomas" : [
+            "diarrea","calambres en el abdomen","náuseas","vómito"
+        ],
+        "soluciones" : "Te recomendamos neomicina, caolin y pectina"
+    },
+    {
+        "enfermedad" : "dermatitis",
+        "sintomas" : [
+            "enrojecimiento en la piel","dolor e inflamación en la piel"
+        ],
+        "soluciones" : "Te recomendamos dernutran que contiene hidrocortisona"
+    },
+    {
+        "enfermedad" : "infección urinaria",
+        "sintomas" : [
+            "dolor al orinar","sangrado","retorcijones en el abdomen"
+        ],
+        "soluciones" : "Te recomendamos trimetoprima y sulfametoxazol"
+    },
+    {
+        "enfermedad" : "alergia",
+        "sintomas" : [
+            "congestión nasal","rinorrea","enrojecimiento de los ojos", "dificultad respiratoria", "sarpullido"
+        ],
+        "soluciones" : "Te recomendamos cetirizina"
+    },
+    {
+        "enfermedad" : "ansiedad",
+        "sintomas" : [
+            "palpitaciones","sensación de ahogo", "estrés excesivo", "angustia excesiva"
+        ],
+        "soluciones" : "Te recomendamos duloxetina"
+    },
+    {
+        "enfermedad" : "neumonia",
+        "sintomas" : [
+            "tos con expectoración purulenta","dolo torácico","fiebre con escalofríos"
+        ],
+        "soluciones" : "Te recomendamos moxifloxacino"
+    },
+    {
+        "enfermedad" : "sequedad ocular",
+        "sintomas" : [
+            "lagrimero","visión borrosa fluctuante","pesadez en los párpados", "ardor"
+        ],
+        "soluciones" : "Te recomendamos gotas hidratantes como lacrifresh"
+    },
+    {
+        "enfermedad" : "transtorno del sueño",
+        "sintomas" : [
+            "dificultad para consiliar el sueño","agotamiento físico","bajo rendimiento", "sueño diurno"
+        ],
+        "soluciones" : "Te recomendamos gotas hidratantes como temazepam"
+    },
+    {
+        "enfermedad" : "varicela",
+        "sintomas" : [
+            "exantemas","vesículas claras con una base rojiza", "costras", "fiebre", "picor intenso"
+        ],
+        "soluciones" : "Te recomendamos tomar aciclovir"
+    },
+    {
+        "enfermedad" : "candidiacis",
+        "sintomas" : [
+            "placas blanquecinas","picor", "sensación de quemazón", "fiebre"
+        ],
+        "soluciones" : "Te recomendamos usar miconazol y terconazol"
+    },
+    {
+        "enfermedad" : "muerte",
+        "sintomas" : ["fiebre","tos"],
+        "soluciones" : "Te recomendamos usar aspirina"
+    }
+]

@@ -9,7 +9,6 @@ class WindowsTalker:
         self.engine.say(text)  # Aquí podría ser donde se está agregando la exclamación
         self.engine.runAndWait() 
 
-
 class Talker:
     def __init__(self, talker_cls):
         self.talker_cls = talker_cls

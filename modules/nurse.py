@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class FindDisease:
     def findText(disease):
         normalized_messages_assistant = pd.read_json("enfermedades.json")

@@ -14,11 +14,11 @@
         "soluciones" : "Te recomendamos descansar, hidratarte y tomar cloperastina en conjunto con paracetamol e ibuprofeno"
     },
     {
-        "enfermedad" : "dolor de cabeza",
+        "enfermedad" : "gripe",
         "sintomas" : [
-            "dolor moderado de la cabeza","intolerancia a la luz","intolerancia al ruido"
+            "dolor de cabeza","intolerancia a la luz","intolerancia al ruido", "dolor corporal"
         ],
-        "soluciones" : "Te recomendamos tomar aspirina"
+        "soluciones" : "Te recomendamos descansar, hidratarte y tomar peramivir"
     },
     {
         "enfermedad" : "migraña",
@@ -28,11 +28,11 @@
         "soluciones" : "Te recomendamos tomar sumatriptán"
     },
     {
-        "enfermedad" : "gripe",
+        "enfermedad" : "dolor de cabeza",
         "sintomas" : [
-            "fiebre","dolor corporal","congestion nasal", "dolor de cabeza", "escalofríos"
+            "dolor de cabeza"
         ],
-        "soluciones" : "Te recomendamos descansar, hidratarte y tomar peramivir"
+        "soluciones" : "Te recomendamos tomar aspirina"
     },
     {
         "enfermedad" : "conjuntivitis",

@@ -1,11 +1,15 @@
-[
+[   {
+        "enfermedad" : "prueba",
+        "medicamento" : "nada, solo ess una prueba",
+        "descripcion" : "funcionó con 3 sintomas"
+    },
     {
         "enfermedad" : "resfriado común",
         "medicamento" : "cloperastina",
         "descripcion" : "Cloperastina se utiliza como tratamiento de las formas improductivas de tos, como tos irritativa o tos nerviosa, ayudando a que estas cesen. Esto es gracias a su doble mecanismo de acción central y periférico, desarrollando su acción selectivamente sobre el centro regulador de la tos sin causar depresión del Sistema Nervioso Central (SNC). Además, cloperastina posee un efecto espasmolítico que relaja la musculatura de los bronquios, y una leve acción antihistamínica. Esto nos ayudará cuando los golpes de tos fuercen la función de nuestros bronquios."
     },
     {
-        "enfermedad" : "cefaleas o dolor de cabeza",
+        "enfermedad" : "dolor de cabeza",
         "medicamento" : "aspirina",
         "descripcion" : "el ácido acetilsalicílico o AAS, conocido popularmente como aspirina. La aspirina sin prescripción se usa para bajar la fiebre y aliviar el dolor leve a moderado causado por dolor de cabeza, períodos menstruales, artritis, dolor en los dientes y dolores musculares. "
     },
@@ -47,7 +51,7 @@
     {
         "enfermedad" : "ansiedad",
         "medicamento" : "duloxetina",
-        "descripcion" : "La duloxetina se utiliza para tratar la depresión en adultos y el trastorno de ansiedad generalizada (TAG; preocupación y tensión excesivas que perturban la vida diaria y duran 6 meses o más) en adultos y niños de 7 años o más."
+        "descripcion" : "La duloxetina se utiliza para tratar la depresión en adultos y el trastorno de ansiedad generalizada, preocupación y tensión excesivas que perturban la vida diaria y duran 6 meses o mas, en adultos y niños de 7 años o mas."
     },
     {
         "enfermedad" : "neumonia",
@@ -72,6 +76,11 @@
     {
         "enfermedad" : "candidiacis",
         "medicamento" : "miconazol y terconazol",
+        "descripcion" : "Aciclovir se usa para reducir el dolor y acelerar la curación de las heridas o ampollas en las personas que tienen varicela, herpes zóster (culebrilla; una erupción cutánea que puede producirse en las personas que han tenido varicela"
+    },
+    {
+        "enfermedad" : "dolor y fiebre",
+        "medicamento" : "paracetamol",
         "descripcion" : "Aciclovir se usa para reducir el dolor y acelerar la curación de las heridas o ampollas en las personas que tienen varicela, herpes zóster (culebrilla; una erupción cutánea que puede producirse en las personas que han tenido varicela"
     }
 ]

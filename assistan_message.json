@@ -6,7 +6,6 @@
     {
         "instruccion": "enfermedad",
         "mensaje": "que enfermedad tienes?"
-
     },
     {
         "instruccion": "sin informacion",
@@ -14,7 +13,7 @@
     },
     {
         "instruccion": "despedida",
-        "mensaje": "Hasta luego. Si necesitas mas ayuda, aqui estare."
+        "mensaje": "Hasta luego."
     },
     {
         "instruccion": "error",

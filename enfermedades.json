@@ -1,4 +1,11 @@
-[
+[   
+    {
+        "enfermedad" : "prueba",
+        "sintomas" : [
+            "celular","libreta","pantalla"
+        ],
+        "soluciones" : "La prueba ha funcionado"
+    },
     {
         "enfermedad" : "resfriado común",
         "sintomas" : [
@@ -7,11 +14,11 @@
         "soluciones" : "Te recomendamos descansar, hidratarte y tomar cloperastina en conjunto con paracetamol e ibuprofeno"
     },
     {
-        "enfermedad" : "cefaleas o dolor de cabeza",
+        "enfermedad" : "gripe",
         "sintomas" : [
-            "dolor leve o moderado de la cabeza","intolerancia a la luz","intolerancia al ruido"
+            "dolor de cabeza","intolerancia a la luz","intolerancia al ruido", "dolor corporal"
         ],
-        "soluciones" : "Te recomendamos tomar aspirina"
+        "soluciones" : "Te recomendamos descansar, hidratarte y tomar peramivir"
     },
     {
         "enfermedad" : "migraña",
@@ -21,11 +28,11 @@
         "soluciones" : "Te recomendamos tomar sumatriptán"
     },
     {
-        "enfermedad" : "gripe",
+        "enfermedad" : "dolor de cabeza",
         "sintomas" : [
-            "fiebre","dolor corporal","congestion nasal", "dolor de cabeza", "escalofríos", "fatiga"
+            "dolor de cabeza"
         ],
-        "soluciones" : "Te recomendamos descansar, hidratarte y tomar peramivir"
+        "soluciones" : "Te recomendamos tomar aspirina"
     },
     {
         "enfermedad" : "conjuntivitis",
@@ -103,5 +110,10 @@
             "placas blanquecinas","picor", "sensación de quemazón", "fiebre"
         ],
         "soluciones" : "Te recomendamos usar miconazol y terconazol"
+    },
+    {
+        "enfermedad" : "muerte",
+        "sintomas" : ["fiebre","tos"],
+        "soluciones" : "Te recomendamos usar aspirina"
     }
 ]

@@ -1,0 +1,66 @@
+<meta charset="UTF-8">
+
+<table class="body-wrap">
+  <tbody>
+    <tr>
+      <td></td>
+      <td class="container" width="600">
+          <div class="content">
+              <table class="main" width="100%" cellpadding="0" cellspacing="0">
+                  <tbody><tr>
+                      <td class="content-wrap aligncenter">
+                          <table width="100%" cellpadding="0" cellspacing="0">
+                              <tbody><tr>
+                                  <td class="content-block">
+                                    <h2>Receta medica auto generada. <br></h2>Que tenga buen día :&#41;
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="content-block">
+                                      <table class="invoice">
+                                          <tbody><tr>
+                                            <td>{{nombrePaciente}}<br>{{fechaActual}}</td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <table class="invoice-items" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                  {% for result in enfermedades %}
+                                                  <tr>
+                                                    <td>{{result}}</td>
+                                                  </tr>
+                                                  {% endfor %}
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                      </tbody></table>
+                                  </td>
+                              </tr>
+                              <tr>
+                                <td class="content-block">
+                                  Para sus enfermedades le recomendamos lo siguiente: <br>
+                                  <b>{{medicamentoUsado}}</b> 
+                                  {% if descripcionMedicamento %}
+                                    <br>
+                                    Descripción del medicamento: <br> 
+                                    <b>{{descripcionMedicamento}}</b>
+                                  {% endif %}
+                                </td>
+                              </tr>
+                          </tbody></table>
+                      </td>
+                  </tr>
+              </tbody></table>
+              <div class="footer">
+                  <table width="100%">
+                      <tbody><tr>
+                          <td class="aligncenter content-block">¿Más preguntas? Consulte a su medico. Buen día.</td>
+                      </tr>
+                  </tbody></table>
+              </div></div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
